@@ -1,0 +1,3 @@
+{
+ :deps {com.walmartlabs/lacinia {:mvn/version "0.33.0-alpha-3"}}
+ :paths ["src"]}

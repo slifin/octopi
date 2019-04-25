@@ -1,0 +1,20 @@
+{
+ :objects {
+           :appointments {
+                          :fields {
+                                   :nid {:type Int}
+                                   :vid {:type Int}
+                                   :instance_date {:type Int}}}
+           :instances {
+                       :fields {
+                                :nid {:type Int}
+                                :vid {:type Int}
+                                :instance_date {:type Int}
+                                :uid {:type Int}}}
+           :projections {
+                         :fields {
+                                  :nid {:type Int}
+                                  :vid {:type Int}}}}}
+
+
+
