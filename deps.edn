@@ -1,5 +1,6 @@
 {
  :deps {
         com.walmartlabs/lacinia {:mvn/version "0.33.0-alpha-3"}
-        honeysql {:mvn/version "0.9.4"}}
+        honeysql {:mvn/version "0.9.4"}
+        clj-time {:mvn/version "0.15.1"}}
  :paths ["src"]}
