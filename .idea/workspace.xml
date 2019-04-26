@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ee42f6d-123c-4a96-8562-094d97b92aec" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Deps__honeysql_0_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Deps__net_cgrand_macrovich_0_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/octopi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/octopi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deps.edn" beforeDir="false" afterPath="$PROJECT_DIR$/deps.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/octopi.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/octopi.clj" afterDir="false" />
-    </list>
+    <list default="true" id="9ee42f6d-123c-4a96-8562-094d97b92aec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,17 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/octopi.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/honeysql/honeysql/0.9.4/honeysql-0.9.4.jar!/honeysql/helpers.cljc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+            <state relative-caret-position="392">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -135,7 +117,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="ReplState" timestamp="1556308023047">{:repl-history {:ide [], :local [{:command &quot;**NS**&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(in-ns 'octopi)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 3 2)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 5 5)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(-main 5 3)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main [])&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main ())&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main 43 2\n       )&quot;, :offset 20, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;adrian\&quot;)&quot;, :offset 16, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;sam\&quot;)&quot;, :offset 13, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;test\&quot;)&quot;, :offset 14, :ns &quot;octopi&quot;} {:command &quot;(load-file \&quot;src/octopi.clj\&quot;)&quot;, :offset 28, :ns &quot;octopi&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1556308287544">{:repl-history {:ide [], :local [{:command &quot;**NS**&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(in-ns 'octopi)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 3 2)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 5 5)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(-main 5 3)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main [])&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main ())&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main 43 2\n       )&quot;, :offset 20, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;adrian\&quot;)&quot;, :offset 16, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;sam\&quot;)&quot;, :offset 13, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;test\&quot;)&quot;, :offset 14, :ns &quot;octopi&quot;} {:command &quot;(load-file \&quot;src/octopi.clj\&quot;)&quot;, :offset 28, :ns &quot;octopi&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -197,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556211194095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Playing with honeySQL">
+      <created>1556308066999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556308066999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -238,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Playing with honeySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playing with honeySQL" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
@@ -255,13 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deps.edn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/honeysql/honeysql/0.9.4/honeysql-0.9.4.jar!/honeysql/helpers.cljc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -269,10 +252,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deps.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/octopi.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="392">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
