@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ee42f6d-123c-4a96-8562-094d97b92aec" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Deps__honeysql_0_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Deps__net_cgrand_macrovich_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/octopi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/octopi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deps.edn" beforeDir="false" afterPath="$PROJECT_DIR$/deps.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/octopi.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/octopi.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,8 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="DepsLocalSettings">
     <option name="repoId" value="" />
@@ -41,9 +47,10 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.clojure/deps.edn" value="0" />
-        <entry key="$PROJECT_DIR$" value="4642950439000" />
-        <entry key="$PROJECT_DIR$/deps.edn" value="3280406740" />
+        <entry key="$PROJECT_DIR$" value="4658093295000" />
+        <entry key="$PROJECT_DIR$/deps.edn" value="351695361" />
         <entry key="/usr/local/Cellar/clojure/1.10.0.414/deps.edn" value="1226038085" />
+        <entry key="/usr/local/Cellar/clojure/1.10.0.442/deps.edn" value="3158775704" />
       </map>
     </option>
     <option name="projectSyncType">
@@ -62,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deps.edn">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="84">
+              <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -71,17 +78,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/octopi.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="530">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema.edn">
+        <entry file="jar://$MAVEN_REPOSITORY$/honeysql/honeysql/0.9.4/honeysql-0.9.4.jar!/honeysql/helpers.cljc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="226">
+              <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -101,38 +108,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/schema.edn" />
         <option value="$PROJECT_DIR$/deps.edn" />
         <option value="$PROJECT_DIR$/src/octopi.clj" />
-        <option value="$PROJECT_DIR$/src/schema.edn" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="444" />
-    <option name="y" value="130" />
-    <option name="width" value="1170" />
-    <option name="height" value="1258" />
+    <option name="y" value="23" />
+    <option name="width" value="887" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="octopi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="octopi" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -143,7 +135,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="ReplState" timestamp="1556267315319">{:repl-history {:ide [], :local [{:command &quot;**NS**&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(in-ns 'octopi)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(load-file \&quot;src/octopi.clj\&quot;)&quot;, :offset 28, :ns &quot;octopi&quot;} {:command &quot;(-main 3 2)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 5 5)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(-main 5 3)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main [])&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main ())&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main 43 2\n       )&quot;, :offset 20, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;adrian\&quot;)&quot;, :offset 16, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;sam\&quot;)&quot;, :offset 13, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;test\&quot;)&quot;, :offset 14, :ns &quot;octopi&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1556308023047">{:repl-history {:ide [], :local [{:command &quot;**NS**&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(in-ns 'octopi)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 3 2)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main 5 5)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(-main 5 3)&quot;, :offset 11, :ns &quot;octopi&quot;} {:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;octopi&quot;} {:command &quot;(-main [])&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main ())&quot;, :offset 10, :ns &quot;octopi&quot;} {:command &quot;(-main 43 2\n       )&quot;, :offset 20, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;adrian\&quot;)&quot;, :offset 16, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;sam\&quot;)&quot;, :offset 13, :ns &quot;octopi&quot;} {:command &quot;(hello \&quot;test\&quot;)&quot;, :offset 14, :ns &quot;octopi&quot;} {:command &quot;(load-file \&quot;src/octopi.clj\&quot;)&quot;, :offset 28, :ns &quot;octopi&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -209,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="444" y="130" width="1170" height="1258" extended-state="0" />
+    <frame x="0" y="23" width="887" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22307692" />
@@ -217,6 +209,8 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -225,7 +219,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48304093" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32928804" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -233,11 +227,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" x="80" y="124" width="2400" height="1236" id="REPL" order="5" side_tool="true" type="WINDOWED" weight="0.47863248" />
+      <window_info active="true" anchor="right" x="887" y="45" width="553" height="855" id="REPL" order="5" side_tool="true" type="WINDOWED" visible="true" weight="0.47863248" />
       <window_info anchor="right" id="Leiningen" order="6" />
       <window_info anchor="right" x="0" y="0" width="242" height="399" id="Documentation" order="7" side_tool="true" weight="0.32991454" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Clojure Deps" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,24 +248,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deps.edn">
+    <entry file="file://$PROJECT_DIR$/src/schema.edn">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="140">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema.edn">
+    <entry file="file://$PROJECT_DIR$/deps.edn">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="84">
+          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/honeysql/honeysql/0.9.4/honeysql-0.9.4.jar!/honeysql/helpers.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/octopi.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="530">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
