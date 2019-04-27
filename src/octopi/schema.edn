@@ -1,19 +1,13 @@
 {:objects
- {:appointments
-  {:fields
-   {:nid {:type Int}
-    :vid {:type Int}
-    :instance_date {:type Int}}}
-  :instances
+ {:instances
   {:fields
    {:nid {:type Int}
     :vid {:type Int}
     :instance_date {:type Int}
-    :uid {:type Int}}}
-  :projections
-  {:fields
-   {:nid {:type Int}
-    :vid {:type Int}}}}}
-
-
-
+    :client {:type Int}}}}
+ {:queries
+  {:instance_by_client
+   {:type :instances
+    :description "Find instance by client id"
+    :args {:client {:type Int}}
+    :resolve :query/instance-by-client}}}}

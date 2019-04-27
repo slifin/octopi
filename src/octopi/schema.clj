@@ -4,9 +4,6 @@
             [com.walmartlabs.lacinia.schema :as schema]
             [clojure.edn :as edn]))
 
-
-(defn )
-
 (defn load-schema []
   (-> (io/resource "schema.edn")
       slurp
